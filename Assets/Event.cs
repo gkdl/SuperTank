@@ -16,7 +16,7 @@ public class Event : MonoBehaviour {
 
     public void CreateTank()
     {
-        GameObject obj =  Instantiate(enemyTank);
+        GameObject obj =  Instantiate(enemyTank); // asdasdasd
         obj.transform.position = new Vector3(0, 3, 0);
     }
 }
